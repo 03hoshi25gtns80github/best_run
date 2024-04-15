@@ -10,7 +10,7 @@ class BestRun(models.Model):
     video_url = models.URLField()
     description = models.TextField()
 
-class Comment(models.Model):
+class FriendComments(models.Model):
     best_run = models.ForeignKey(BestRun, on_delete=models.CASCADE)
     text = models.TextField()
 
