@@ -1,8 +1,7 @@
 from django.contrib import admin
-from .models import Calendar, BestRun, FriendComments, Friend
+from .models import BestRun
 
 # 各モデルを管理サイトに登録します。
-admin.site.register(Calendar)
 admin.site.register(BestRun)
-admin.site.register(FriendComments)
-admin.site.register(Friend)
+#admin.site.register(FriendComments)
+#admin.site.register(Friend)

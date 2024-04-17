@@ -11,4 +11,4 @@ class SignUpForm(UserCreationForm):
 class BestRunForm(forms.ModelForm):
     class Meta:
         model = BestRun
-        fields = ['video_url', 'description']
+        fields = ['date', 'video_url', 'description']
