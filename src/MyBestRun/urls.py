@@ -9,8 +9,8 @@ urlpatterns = [
     path('signup/', views.signupview, name='signup'),
     path('login/', views.loginview, name='login'),
     path('logout/', views.logoutview, name='logout'),
-    path('mycalendar/', views.MyCalendar.as_view(), name='mycalendar'),
+    path('formcalendar/', views.FormCalendar.as_view(), name='formcalendar'),
     path(
-        'mycalendar/<int:year>/<int:month>/<int:day>/', views.MyCalendar.as_view(), name='mycalendar'
+        'formcalendar/<int:year>/<int:month>/<int:day>/', views.FormCalendar.as_view(), name='formcalendar'
     ),
 ]

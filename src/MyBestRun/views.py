@@ -37,9 +37,9 @@ def logoutview(request):
 
 
 
-class MyCalendar(mixins.MonthCalendarMixin, generic.CreateView):
+class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
     """月間カレンダー、週間カレンダー、スケジュール登録画面のある欲張りビュー"""
-    template_name = 'mycalendar.html'
+    template_name = 'formcalendar.html'
     model = BestRun
     date_field = 'date'
     form_class = BestRunForm
