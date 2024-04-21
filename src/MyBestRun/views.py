@@ -58,8 +58,14 @@ class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
             date = datetime.date(year=int(year), month=int(month), day=int(day))
         else:
             date = datetime.date.today()
+          
+        # 指定された日付で既存のデータを検索
+        existing_runs = BestRun.objects.filter(date=date, user=self.request.user)
+        # 既存のデータがあれば削除
+        existing_runs.delete()
+        
         best_run = form.save(commit=False)  # 小文字で始める変数名に修正
         best_run.date = date  # カレンダーで選択した日付を設定
         best_run.user = self.request.user  # ログインユーザーをBestRunインスタンスに関連付け
         best_run.save()
-        return redirect('MyBestRun:mycalendar', year=date.year, month=date.month, day=date.day)
+        return redirect('MyBestRun:formcalendar', year=date.year, month=date.month, day=date.day)
