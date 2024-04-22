@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 class BestRun(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     date = models.DateField()
+    video = models.FileField(upload_to='videos/')  # ファイルアップロード用のフィールド
     video_url = models.URLField()
     description = models.TextField()
 

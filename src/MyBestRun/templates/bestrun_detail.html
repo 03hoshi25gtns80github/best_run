@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block content %} {% load custom_filters %}
+<h1>{{ bestrun.description }}</h1>
+<p>Date: {{ bestrun.date }}</p>
+<p>
+  Video URL:
+  <a href="{{ bestrun.video_url|urldecode }}"
+    >{{ bestrun.video_url|urldecode }}</a
+  >
+</p>
+{% endblock %}

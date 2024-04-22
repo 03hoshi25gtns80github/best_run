@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .forms import SignUpForm, BestRunForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+from django.views.generic.detail import DetailView
 from .models import BestRun
 import datetime
 from django.views import generic
@@ -66,5 +67,26 @@ class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
         best_run = form.save(commit=False)  # 小文字で始める変数名に修正
         best_run.date = date  # カレンダーで選択した日付を設定
         best_run.user = self.request.user  # ログインユーザーをBestRunインスタンスに関連付け
+        best_run.video_url = best_run.video.url  # Azure StorageにアップロードされたファイルのURLを保存
+        url_parts = best_run.video_url.split('/')
+        url_parts.insert(-1, 'videos')
+        best_run.video_url = '/'.join(url_parts)
         best_run.save()
         return redirect('MyBestRun:formcalendar')
+    
+    
+class MyCalendar(mixins.MonthWithBestrunMixin, generic.ListView):
+    template_name = 'mycalendar.html'
+    model = BestRun
+    date_field = 'date'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        calendar_context = self.get_month_calendar()
+        context.update(calendar_context)
+        return context
+
+class BestRunDetailView(DetailView):
+    model = BestRun
+    template_name = 'bestrun_detail.html'
+    context_object_name = 'bestrun'

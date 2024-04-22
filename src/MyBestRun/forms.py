@@ -11,7 +11,7 @@ class SignUpForm(UserCreationForm):
 class BestRunForm(forms.ModelForm):
     class Meta:
         model = BestRun
-        fields = ['date', 'video_url', 'description']  # 'date'を一旦ここに含めます
+        fields = ['date', 'video', 'description']  # 'date'を一旦ここに含めます
 
     def __init__(self, *args, **kwargs):
         super(BestRunForm, self).__init__(*args, **kwargs)

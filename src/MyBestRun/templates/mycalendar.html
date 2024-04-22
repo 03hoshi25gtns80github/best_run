@@ -1,0 +1,54 @@
+{% extends 'base.html' %} {% block content %}
+<style>
+  table {
+    table-layout: fixed;
+  }
+
+  td > div {
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+</style>
+<a
+  href="{% url 'MyBestRun:mycalendar' month_previous.year month_previous.month %}"
+  >前月</a
+>
+{{ month_current | date:"Y年m月" }}
+<a href="{% url 'MyBestRun:mycalendar' month_next.year month_next.month %}"
+  >次月</a
+>
+<table class="table">
+  <thead>
+    <tr>
+      {% for w in week_names %}
+      <th>{{ w }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for week_day_bestruns in month_day_bestruns %}
+    <tr>
+      {% for day, bestruns in week_day_bestruns.items %}
+      <td class="{% if now == day %}table-success{% endif %}">
+        <div>
+          <!-- 日付表示の修正 -->
+          {% if month_current.month != day.month %}
+          <span class="text-muted">{{ day | date:"m/d" }}</span>
+          {% else %}
+          <span>{{ day.day }}</span>
+          {% endif %} {% for bestrun in bestruns %}
+          <p>
+            <a href="{% url 'MyBestRun:bestrun_detail' bestrun.id %}"
+              >{{ bestrun.description }}</a
+            >
+          </p>
+          {% endfor %}
+        </div>
+      </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
