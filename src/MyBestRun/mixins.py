@@ -108,28 +108,28 @@ class WeekCalendarMixin(BaseCalendarMixin):
         return calendar_data
 
 
-class WeekWithScheduleMixin(WeekCalendarMixin):
+class WeekWithbestrunMixin(WeekCalendarMixin):
     """スケジュール付きの、週間カレンダーを提供するMixin"""
 
-    def get_week_schedules(self, start, end, days):
+    def get_week_bestruns(self, start, end, days):
         """それぞれの日とスケジュールを返す"""
         lookup = {
             # '例えば、date__range: (1日, 31日)'を動的に作る
             '{}__range'.format(self.date_field): (start, end)
         }
-        # 例えば、Schedule.objects.filter(date__range=(1日, 31日)) になる
+        # 例えば、bestrun.objects.filter(date__range=(1日, 31日)) になる
         queryset = self.model.objects.filter(**lookup)
 
         # {1日のdatetime: 1日のスケジュール全て, 2日のdatetime: 2日の全て...}のような辞書を作る
-        day_schedules = {day: [] for day in days}
-        for schedule in queryset:
-            schedule_date = getattr(schedule, self.date_field)
-            day_schedules[schedule_date].append(schedule)
-        return day_schedules
+        day_bestruns = {day: [] for day in days}
+        for bestrun in queryset:
+            bestrun_date = getattr(bestrun, self.date_field)
+            day_bestruns[bestrun_date].append(bestrun)
+        return day_bestruns
 
     def get_week_calendar(self):
         calendar_context = super().get_week_calendar()
-        calendar_context['week_day_schedules'] = self.get_week_schedules(
+        calendar_context['week_day_bestruns'] = self.get_week_bestruns(
             calendar_context['week_first'],
             calendar_context['week_last'],
             calendar_context['week_days']
@@ -137,35 +137,37 @@ class WeekWithScheduleMixin(WeekCalendarMixin):
         return calendar_context
 
 
-class MonthWithScheduleMixin(MonthCalendarMixin):
+class MonthWithBestrunMixin(MonthCalendarMixin):
     """スケジュール付きの、月間カレンダーを提供するMixin"""
 
-    def get_month_schedules(self, start, end, days):
+    def get_month_bestruns(self, start, end, days):
         """それぞれの日とスケジュールを返す"""
         lookup = {
             # '例えば、date__range: (1日, 31日)'を動的に作る
             '{}__range'.format(self.date_field): (start, end)
         }
-        # 例えば、Schedule.objects.filter(date__range=(1日, 31日)) になる
+        # 例えば、bestrun.objects.filter(date__range=(1日, 31日)) になる
         queryset = self.model.objects.filter(**lookup)
 
         # {1日のdatetime: 1日のスケジュール全て, 2日のdatetime: 2日の全て...}のような辞書を作る
-        day_schedules = {day: [] for week in days for day in week}
-        for schedule in queryset:
-            schedule_date = getattr(schedule, self.date_field)
-            day_schedules[schedule_date].append(schedule)
+        day_bestruns = {day: [] for week in days for day in week}
+        for bestrun in queryset:
+            bestrun_date = getattr(bestrun, self.date_field)
+            day_bestruns[bestrun_date].append(bestrun)
 
-        # day_schedules辞書を、周毎に分割する。[{1日: 1日のスケジュール...}, {8日: 8日のスケジュール...}, ...]
+        # day_bestruns辞書を、周毎に分割する。[{1日: 1日のスケジュール...}, {8日: 8日のスケジュール...}, ...]
         # 7個ずつ取り出して分割しています。
-        size = len(day_schedules)
-        return [{key: day_schedules[key] for key in itertools.islice(day_schedules, i, i+7)} for i in range(0, size, 7)]
-
+        size = len(day_bestruns)
+        result = [{key: day_bestruns[key] for key in itertools.islice(day_bestruns, i, i+7)} for i in range(0, size, 7)]
+        print(result)
+        return result
+        
     def get_month_calendar(self):
         calendar_context = super().get_month_calendar()
         month_days = calendar_context['month_days']
         month_first = month_days[0][0]
         month_last = month_days[-1][-1]
-        calendar_context['month_day_schedules'] = self.get_month_schedules(
+        calendar_context['month_day_bestruns'] = self.get_month_bestruns(
             month_first,
             month_last,
             month_days
@@ -182,7 +184,7 @@ class MonthWithFormsMixin(MonthCalendarMixin):
             # '例えば、date__range: (1日, 31日)'を動的に作る
             '{}__range'.format(self.date_field): (start, end)
         }
-        # 例えば、Schedule.objects.filter(date__range=(1日, 31日)) になる
+        # 例えば、bestrun.objects.filter(date__range=(1日, 31日)) になる
         queryset = self.model.objects.filter(**lookup)
         days_count = sum(len(week) for week in days)
         FormClass = forms.modelformset_factory(self.model, self.form_class, extra=days_count)

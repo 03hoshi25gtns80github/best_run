@@ -68,3 +68,15 @@ class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
         best_run.user = self.request.user  # ログインユーザーをBestRunインスタンスに関連付け
         best_run.save()
         return redirect('MyBestRun:formcalendar')
+    
+    
+class MyCalendar(mixins.MonthWithBestrunMixin, generic.ListView):
+    template_name = 'mycalendar.html'
+    model = BestRun
+    date_field = 'date'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        calendar_context = self.get_month_calendar()
+        context.update(calendar_context)
+        return context

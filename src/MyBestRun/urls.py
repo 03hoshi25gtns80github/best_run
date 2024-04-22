@@ -13,4 +13,8 @@ urlpatterns = [
     path(
         'formcalendar/<int:year>/<int:month>/<int:day>/', views.FormCalendar.as_view(), name='formcalendar'
     ),
+    path('mycalendar/', views.MyCalendar.as_view(), name='mycalendar'),
+    path(
+        'mycalendar/<int:year>/<int:month>/',
+        views.MyCalendar.as_view(), name='mycalendar'),
 ]
