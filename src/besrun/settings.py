@@ -11,10 +11,11 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -26,7 +27,6 @@ SECRET_KEY = 'django-insecure-&ko)r0#jy9ij@j^(srys((x!50w%$xo43#9%okh22n-h7p68*t
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -40,9 +40,16 @@ INSTALLED_APPS = [
     'MyBestRun',
 ]
 
+env = environ.Env()
+
+# .envファイルのパスを指定するためにBASE_DIRをmanage.pyのある階層に指定
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# manage.pyのある階層にある.envを読み込む
+environ.Env.read_env(os.path.join(ROOT_DIR, '.env'))
+
 DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 AZURE_ACCOUNT_NAME = "bestrun"
-AZURE_ACCOUNT_KEY =  "slV94HZaw6OvBR+dJqK6VSLSM5HMnLPI8bt566Z2TfrZ3acdlSDFpP6wuHtmTN02Dni+nEf9l8ox+AStQ6Nh9A=="
+AZURE_ACCOUNT_KEY = env('AZURE_ACCOUNT_KEY')
 AZURE_CONTAINER = "bestrun-hoshi"
 
 MIDDLEWARE = [
