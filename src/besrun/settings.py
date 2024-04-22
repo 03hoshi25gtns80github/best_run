@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     'MyBestRun',
 ]
 
+DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
+AZURE_ACCOUNT_NAME = "bestrun"
+AZURE_ACCOUNT_KEY =  "slV94HZaw6OvBR+dJqK6VSLSM5HMnLPI8bt566Z2TfrZ3acdlSDFpP6wuHtmTN02Dni+nEf9l8ox+AStQ6Nh9A=="
+AZURE_CONTAINER = "bestrun-hoshi"
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
