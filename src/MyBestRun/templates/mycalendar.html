@@ -38,7 +38,11 @@
           {% else %}
           <span>{{ day.day }}</span>
           {% endif %} {% for bestrun in bestruns %}
-          <p>{{ bestrun.description }}</p>
+          <p>
+            <a href="{% url 'MyBestRun:bestrun_detail' bestrun.id %}"
+              >{{ bestrun.description }}</a
+            >
+          </p>
           {% endfor %}
         </div>
       </td>

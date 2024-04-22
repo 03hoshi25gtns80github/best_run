@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .forms import SignUpForm, BestRunForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+from django.views.generic.detail import DetailView
 from .models import BestRun
 import datetime
 from django.views import generic
@@ -80,3 +81,8 @@ class MyCalendar(mixins.MonthWithBestrunMixin, generic.ListView):
         calendar_context = self.get_month_calendar()
         context.update(calendar_context)
         return context
+
+class BestRunDetailView(DetailView):
+    model = BestRun
+    template_name = 'bestrun_detail.html'
+    context_object_name = 'bestrun'

@@ -17,4 +17,5 @@ urlpatterns = [
     path(
         'mycalendar/<int:year>/<int:month>/',
         views.MyCalendar.as_view(), name='mycalendar'),
+    path('bestrun/<int:pk>/', views.BestRunDetailView.as_view(), name='bestrun_detail'),
 ]
