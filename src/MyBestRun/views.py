@@ -68,6 +68,9 @@ class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
         best_run.date = date  # カレンダーで選択した日付を設定
         best_run.user = self.request.user  # ログインユーザーをBestRunインスタンスに関連付け
         best_run.video_url = best_run.video.url  # Azure StorageにアップロードされたファイルのURLを保存
+        url_parts = best_run.video_url.split('/')
+        url_parts.insert(-1, 'videos')
+        best_run.video_url = '/'.join(url_parts)
         best_run.save()
         return redirect('MyBestRun:formcalendar')
     
