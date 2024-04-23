@@ -44,7 +44,6 @@ env = environ.Env()
 
 # .envファイルのパスを指定するためにBASE_DIRをmanage.pyのある階層に指定
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# manage.pyのある階層にある.envを読み込む
 environ.Env.read_env(os.path.join(ROOT_DIR, '.env'))
 
 DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
