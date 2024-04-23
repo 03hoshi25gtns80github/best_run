@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
-# .envファイルのパスを指定するためにBASE_DIRをmanage.pyのある階層に指定
+# ROOT_DIRを指定
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 environ.Env.read_env(os.path.join(ROOT_DIR, '.env'))
 env = environ.Env()
