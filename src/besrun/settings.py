@@ -20,8 +20,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
+# .envファイルのパスを指定するためにBASE_DIRをmanage.pyのある階層に指定
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+environ.Env.read_env(os.path.join(ROOT_DIR, '.env'))
+env = environ.Env()
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&ko)r0#jy9ij@j^(srys((x!50w%$xo43#9%okh22n-h7p68*t'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,12 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'MyBestRun',
 ]
-
-env = environ.Env()
-
-# .envファイルのパスを指定するためにBASE_DIRをmanage.pyのある階層に指定
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-environ.Env.read_env(os.path.join(ROOT_DIR, '.env'))
 
 DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 AZURE_ACCOUNT_NAME = "bestrun"
