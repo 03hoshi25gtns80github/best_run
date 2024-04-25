@@ -28,7 +28,7 @@ def loginview(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('MyBestRun:front')
+            return redirect('MyBestRun:mycalendar')
     else:
         return render(request, 'login.html')
 
