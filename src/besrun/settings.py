@@ -45,10 +45,11 @@ INSTALLED_APPS = [
     'MyBestRun',
 ]
 
-DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
-AZURE_ACCOUNT_NAME = "bestrun"
+# ファイルストレージ
+DEFAULT_FILE_STORAGE = env('DEFAULT_FILE_STORAGE')
+AZURE_ACCOUNT_NAME = env('AZURE_ACCOUNT_NAME')
 AZURE_ACCOUNT_KEY = env('AZURE_ACCOUNT_KEY')
-AZURE_CONTAINER = "bestrun-hoshi"
+AZURE_CONTAINER = env('AZURE_CONTAINER')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -86,8 +87,12 @@ WSGI_APPLICATION = 'besrun.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': env('DB_NAME'),
+        'USER': env('DB_USER'),
+        'PASSWORD': env('DB_PASSWORD'),
+        'HOST': '',
+        'PORT': '',
     }
 }
 
@@ -114,9 +119,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
@@ -132,3 +137,46 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    
+    # ロガーの設定
+    'loggers': {
+        # Django
+        'django': {
+            'handlers': ['console'],
+            'level': 'INFO',
+        },
+        # MyBestRun
+        'MyBestRun': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+        },
+    },
+    
+    # ハンドラ 
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'dev',
+        },
+    },
+    # フォーマッタ
+    'formatters': {
+        'dev': {
+            'format': '\t'.join([
+                '%(asctime)s',
+                '[%(levelname)s]',
+                '%(pathname)s(Line:%(lineno)d)',
+                '%(message)s'
+            ])
+        },
+    },
+}
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
