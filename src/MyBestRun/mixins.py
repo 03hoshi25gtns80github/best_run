@@ -159,7 +159,6 @@ class MonthWithBestrunMixin(MonthCalendarMixin):
         # 7個ずつ取り出して分割しています。
         size = len(day_bestruns)
         result = [{key: day_bestruns[key] for key in itertools.islice(day_bestruns, i, i+7)} for i in range(0, size, 7)]
-        print(result)
         return result
         
     def get_month_calendar(self):
