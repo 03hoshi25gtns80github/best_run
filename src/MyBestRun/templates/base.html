@@ -49,7 +49,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container px-5">
           <a class="navbar-brand" href="{% url 'MyBestRun:front' %}"
-            >PRIVATE DIARY</a
+            >MyBestRun</a
           >
           <button
             class="navbar-toggler"
@@ -76,7 +76,14 @@
                 <a
                   class="nav-link {% block active_formcalendar %}{% endblock %}"
                   href="{% url 'MyBestRun:formcalendar' %}"
-                  >登録用カレンダー</a
+                  >FormCalendar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link {% block active_mycalendar %}{% endblock %}"
+                  href="{% url 'MyBestRun:mycalendar' %}"
+                  >MyCalendar</a
                 >
               </li>
               {% endif %}
