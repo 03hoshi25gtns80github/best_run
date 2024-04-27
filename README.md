@@ -12,23 +12,25 @@ Django
 Python
 HTML
 CSS
+Bootstrap
 js
 Docker
 Git
-GitHub  
+GitHub
+PostgreSQL
 Azure
+AWS
+Nginx/Gunicorn
+Let’s Encrypt
 
 ### Docker コマンド：
 
-docker-compose up -d
-コンテナをバックグラウンドで実行
-docker-compose exec django bash
-コンテナ内の bash シェルにアクセス
+docker-compose up
+コンテナを実行
 docker-compose down
 コンテナの停止
-python manage.py runserver 0.0.0.0:8000
+
 http://localhost:8000/
-コンテナ内で runserver するとこのページがフロントになる
 
 ### テストユーザー
 
