@@ -13,34 +13,6 @@ class InquiryView(generic.FormView):
     template_name = 'inquiry.html'
     form_class = InquiryForm
 
-"""
-def signupview(request):
-    if request.method == 'POST':
-        form = SignUpForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('MyBestRun:front')
-    else:
-        form = SignUpForm()
-    return render(request, 'signup.html', {'form': form})
-
-def loginview(request):
-    if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-            return redirect('MyBestRun:mycalendar')
-    else:
-        return render(request, 'login.html')
-
-def logoutview(request):
-    logout(request)
-    return redirect('MyBestRun:front')
-"""
-
-
 class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
     """フォームに飛べる月間カレンダー"""
     template_name = 'formcalendar.html'
