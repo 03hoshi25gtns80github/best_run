@@ -1,8 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
+from accounts.models import CustomUser
 
 class BestRun(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     date = models.DateField()
     video = models.FileField(upload_to='videos/')  # ファイルアップロード用のフィールド
     video_url = models.URLField()

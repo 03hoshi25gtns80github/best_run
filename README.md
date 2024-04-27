@@ -35,4 +35,10 @@ http://localhost:8000/
 ### テストユーザー
 
 id：test1,test2,...,
-pass：T11111111
+pass：T11111111  
+  
+### DBコマンド  
+docker-compose exec db psql -U ${DB_USER} ${DB_NAME}  
+\dt
+SELECT * FROM "テーブル名";
+

@@ -1,7 +1,5 @@
 from django.shortcuts import render, redirect
-from .forms import SignUpForm, BestRunForm
-from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.decorators import login_required
+from .forms import BestRunForm, InquiryForm
 from django.views.generic.detail import DetailView
 from .models import BestRun
 import datetime
@@ -11,6 +9,11 @@ from . import mixins
 def front(request):
     return render(request, 'front.html')
 
+class InquiryView(generic.FormView):
+    template_name = 'inquiry.html'
+    form_class = InquiryForm
+
+"""
 def signupview(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
@@ -35,6 +38,7 @@ def loginview(request):
 def logoutview(request):
     logout(request)
     return redirect('MyBestRun:front')
+"""
 
 
 class FormCalendar(mixins.MonthCalendarMixin, generic.CreateView):
@@ -90,3 +94,4 @@ class BestRunDetailView(DetailView):
     model = BestRun
     template_name = 'bestrun_detail.html'
     context_object_name = 'bestrun'
+    

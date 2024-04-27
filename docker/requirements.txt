@@ -2,3 +2,5 @@ django == 5.0
 django-storages[azure]
 django-environ
 psycopg2-binary
+django-allauth
+django-bootstrap5

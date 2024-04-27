@@ -6,9 +6,7 @@ app_name = 'MyBestRun'
 
 urlpatterns = [
     path('', views.front, name='front'),
-    path('signup/', views.signupview, name='signup'),
-    path('login/', views.loginview, name='login'),
-    path('logout/', views.logoutview, name='logout'),
+    path('inquiry/', views.InquiryView.as_view(), name='inquiry'),
     path('formcalendar/', views.FormCalendar.as_view(), name='formcalendar'),
     path(
         'formcalendar/<int:year>/<int:month>/<int:day>/', views.FormCalendar.as_view(), name='formcalendar'

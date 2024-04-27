@@ -1,24 +1,31 @@
-version: "3"
+version: '3.8'
 
 services:
-  # サービス名
-  django:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  mybestrun:
     build:
       context: ./docker # Dockerfileがあるディレクトリまでの相対パス
       dockerfile: Dockerfile # Dockerfileのファイル名
-
-    # 作成するコンテナ名の指定
-    container_name: django
-
-    # 使用するポートの設定
+    command: python manage.py runserver 0.0.0.0:8000
     ports:
       - "8000:8000"
+    depends_on:
+      - db
     env_file:
       - ./.env
-
-    # 対話的なセッションやコマンドラインの操作を許可する
-    tty: true
-
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ${SRC_PATH}:/src
+
+volumes:
+  postgres_data:
