@@ -1,0 +1,104 @@
+2024-04-28 02:45:47,430	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:47:23,716	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:23,722	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:23,723	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:24,006	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:24,007	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:24,008	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:40,956	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:40,958	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:40,958	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:41,438	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:41,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:41,441	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:48:47,583	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:48:50,977	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 02:48:51,019	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:48:51,020	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 02:48:51,024	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:48:51,025	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 02:48:51,027	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 02:48:51,028	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 02:48:51,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 02:48:51,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 02:48:51,033	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 02:48:51,034	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 02:51:21,001	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:52:39,783	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:52:45,225	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 02:52:45,297	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:52:45,298	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,310	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 02:52:45,310	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 02:52:45,311	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,311	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 02:52:45,314	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 02:52:45,318	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 02:52:45,322	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:52:45,323	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,324	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 02:52:45,324	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:08,160	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 03:03:14,355	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 03:03:14,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 03:03:14,442	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 03:03:14,443	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 03:03:14,444	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 03:03:14,445	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 03:03:14,447	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 03:03:14,447	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:14,449	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:14,458	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 03:03:14,459	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386

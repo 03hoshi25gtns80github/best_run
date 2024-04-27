@@ -26,6 +26,30 @@ services:
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ${SRC_PATH}:/src
+  
+  gunicorn:
+    build:
+      context: ./docker # Dockerfileがあるディレクトリまでの相対パス
+      dockerfile: Dockerfile # Dockerfileのファイル名
+    container_name: gunicorn
+    volumes:
+      - ${SRC_PATH}:/src
+      - gunicorn:/var/run/gunicorn
+    env_file: ./.env
+    stdin_open: true
+    tty: true
 
+  nginx:
+    image: nginx:1.17.7
+    container_name: nginx
+    depends_on:
+      - gunicorn
+    ports:
+      - "80:80"
+    volumes:
+      - ./gunicorn.conf:/etc/nginx/conf.d/default.conf
+      - ./src/static:/var/www/mysite/static
 volumes:
+  gunicorn:
+    driver: local
   postgres_data:
