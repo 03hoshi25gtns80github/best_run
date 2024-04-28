@@ -12,7 +12,7 @@ services:
     ports:
       - "5432:5432"
 
-  mybestrun:
+  gunicorn:
     build:
       context: ./docker # Dockerfileがあるディレクトリまでの相対パス
       dockerfile: Dockerfile # Dockerfileのファイル名
@@ -26,16 +26,8 @@ services:
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ${SRC_PATH}:/src
-  
-  gunicorn:
-    build:
-      context: ./docker # Dockerfileがあるディレクトリまでの相対パス
-      dockerfile: Dockerfile # Dockerfileのファイル名
-    container_name: gunicorn
-    volumes:
-      - ${SRC_PATH}:/src
       - gunicorn:/var/run/gunicorn
-    env_file: ./.env
+    container_name: gunicorn
     stdin_open: true
     tty: true
 
