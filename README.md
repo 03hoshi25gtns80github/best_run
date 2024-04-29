@@ -29,6 +29,8 @@ docker-compose up
 コンテナを実行
 docker-compose down
 コンテナの停止
+docker-compose exec gunicorn python manage.py collectstatic  
+静的ファイルの移動
 
 http://localhost:8000/
 

@@ -1,0 +1,791 @@
+2024-04-28 02:45:47,430	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:47:23,716	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:23,722	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:23,723	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:24,006	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:24,007	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:24,008	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:40,956	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:40,958	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:40,958	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:47:41,438	[ERROR]	/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py(Line:124)	Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-04-28 02:47:41,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Bad Request: /
+2024-04-28 02:47:41,441	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 400 143
+2024-04-28 02:48:47,583	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:48:50,977	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 02:48:51,019	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:48:51,020	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 02:48:51,024	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:48:51,025	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 02:48:51,027	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 02:48:51,028	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 02:48:51,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 02:48:51,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 02:48:51,033	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 02:48:51,034	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 02:51:21,001	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:52:39,783	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 02:52:45,225	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 02:52:45,297	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:52:45,298	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,310	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 02:52:45,310	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 02:52:45,311	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,311	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 02:52:45,314	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 02:52:45,318	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 02:52:45,322	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 02:52:45,323	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 02:52:45,324	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 02:52:45,324	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:08,160	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 03:03:14,355	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 03:03:14,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 03:03:14,442	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 03:03:14,443	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 03:03:14,444	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 03:03:14,445	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 03:03:14,447	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 03:03:14,447	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:14,449	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 03:03:14,458	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 03:03:14,459	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 21:22:31,932	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:24:54,688	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-28 21:24:55,751	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:26:01,580	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-28 21:26:02,698	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:26:55,422	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:28:34,964	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:29:03,427	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-28 21:29:09,953	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-28 21:29:10,022	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-28 21:29:10,023	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-28 21:29:10,025	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-28 21:29:10,028	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-28 21:29:10,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-28 21:29:10,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-28 21:29:10,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-28 21:29:10,030	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-28 21:29:10,043	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-28 21:29:10,044	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-28 21:29:10,283	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/favicon.ico
+2024-04-28 21:29:10,284	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/favicon.ico HTTP/1.1" 404 3386
+2024-04-29 09:32:17,870	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 09:33:41,080	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-29 09:33:41,135	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 09:33:41,136	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:33:41,137	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-29 09:33:41,139	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:33:41,141	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-29 09:33:41,142	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 09:33:41,143	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-29 09:33:41,146	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 09:33:41,146	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-29 09:33:41,146	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-29 09:33:41,206	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/favicon.ico
+2024-04-29 09:33:41,207	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/favicon.ico HTTP/1.1" 404 3386
+2024-04-29 09:33:43,715	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /accounts/login/ HTTP/1.1" 302 0
+2024-04-29 09:33:43,755	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /mycalendar/ HTTP/1.1" 200 9667
+2024-04-29 09:33:43,780	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:33:43,781	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:33:43,781	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-29 09:33:43,781	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-29 09:33:46,389	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /bestrun/1/ HTTP/1.1" 200 3475
+2024-04-29 09:33:46,410	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:33:46,411	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-29 09:33:46,412	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:33:46,412	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-29 09:39:06,018	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 09:54:37,890	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5502
+2024-04-29 09:54:37,929	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 09:54:37,931	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:54:37,934	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 09:54:37,935	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3386
+2024-04-29 09:54:37,937	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:54:37,939	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 09:54:37,940	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3386
+2024-04-29 09:54:37,940	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3386
+2024-04-29 09:54:37,941	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3386
+2024-04-29 09:54:37,941	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3386
+2024-04-29 09:57:05,895	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 09:57:05,929	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:57:05,931	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:57:05,934	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 09:57:05,934	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 09:57:05,937	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 09:57:05,937	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 09:57:05,937	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 09:57:05,939	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 09:57:05,946	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 09:57:05,946	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 09:57:06,346	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 09:57:06,348	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 09:57:06,348	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 09:57:06,348	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:22:52,615	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 10:22:54,046	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:25:46,646	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:27:49,546	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 10:27:50,642	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:28:12,949	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:31:17,388	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:31:26,880	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:31:26,918	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:31:26,919	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:31:26,921	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:31:26,922	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:31:26,922	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:31:26,922	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:31:26,923	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:26,924	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:26,939	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:31:26,940	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:31:26,942	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:31:26,942	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:26,943	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:31:26,943	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:31:56,693	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:31:56,729	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:31:56,731	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:31:56,734	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:31:56,737	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:31:56,737	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:31:56,738	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:31:56,738	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:56,738	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:56,743	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:31:56,745	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:31:57,086	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:31:57,087	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:31:57,088	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:31:57,088	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:33:27,851	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:33:27,852	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:33:27,853	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:33:27,853	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:34:15,683	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:34:15,693	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:34:15,694	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:34:15,698	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:34:15,699	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:34:15,701	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:34:15,701	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:34:15,702	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:34:15,702	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:34:15,734	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:34:15,734	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:36:27,125	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-29 10:36:28,123	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:36:51,173	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:38:49,064	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:38:49,103	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:38:49,104	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:38:49,105	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:38:49,106	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:38:49,107	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:38:49,108	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:38:49,108	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:38:49,108	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:38:49,115	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:38:49,116	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:38:49,118	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:38:49,118	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:38:49,118	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:38:49,119	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:38:54,042	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:38:54,045	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:38:54,045	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:38:54,046	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:38:58,643	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:38:58,654	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:38:58,656	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:38:58,658	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:38:58,659	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:38:58,660	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:38:58,661	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:38:58,661	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:38:58,662	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:38:58,667	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:38:58,668	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:42:11,007	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-29 10:42:12,087	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:44:45,141	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:45:02,217	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:45:02,263	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:45:02,265	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:45:02,267	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:45:02,268	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:45:02,269	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:45:02,269	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:45:02,270	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:45:02,271	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:45:02,275	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:45:02,277	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:45:02,278	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:45:02,278	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:45:02,279	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:45:02,279	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:45:05,431	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:45:05,432	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:45:05,432	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:45:05,433	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:45:07,924	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 10:45:07,936	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 10:45:07,938	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 10:45:07,941	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 10:45:07,942	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 10:45:07,943	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 10:45:07,943	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 10:45:07,944	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 10:45:07,945	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 10:45:07,948	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 10:45:07,949	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 10:49:07,656	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-29 10:49:08,712	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:51:11,043	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings_common.py changed, reloading.
+2024-04-29 10:51:12,137	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 10:58:40,435	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 10:58:41,436	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 11:02:56,561	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 11:02:57,666	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 11:16:14,194	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 11:17:13,934	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:13,944	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:13,946	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:13,947	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:13,948	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:13,948	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:13,950	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:13,950	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:13,952	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:13,972	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:13,973	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:14,961	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:14,973	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:14,974	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:14,976	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:14,978	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:14,979	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:14,980	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:14,982	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:14,982	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:15,008	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:15,009	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:15,660	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:15,675	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:15,677	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:15,679	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:15,679	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:15,680	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:15,681	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:15,686	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:15,688	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:15,688	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:15,689	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,164	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:16,177	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:16,179	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:16,180	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:16,183	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:16,183	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:16,184	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:16,184	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,185	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,200	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:16,202	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,664	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:16,678	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:16,680	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:16,682	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:16,684	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:16,685	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:16,687	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:16,687	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,688	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:16,692	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:16,694	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,340	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:17,353	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:17,354	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:17,357	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:17,359	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:17,362	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:17,363	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,363	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:17,364	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,368	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:17,369	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,745	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:17,759	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:17,760	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:17,762	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:17,763	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:17,765	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:17,768	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:17,769	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,769	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:17,770	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:17,770	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,307	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:18,325	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:18,327	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:18,329	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:18,331	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:18,331	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:18,332	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,332	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:18,334	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,338	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:18,339	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,849	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:18,863	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:18,865	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:18,868	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:18,870	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:18,870	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:18,871	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,871	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:18,872	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:18,875	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:18,876	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,327	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:19,342	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:19,344	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:19,346	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:19,348	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:19,349	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:19,349	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:19,350	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,350	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,354	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:19,355	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,786	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:19,811	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:19,813	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:19,815	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:19,817	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:19,819	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:19,819	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:19,819	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:19,820	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,821	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:19,822	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,273	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:20,289	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:20,292	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:20,294	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:20,295	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:20,296	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,296	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,297	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,297	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,302	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:20,302	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,590	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:20,605	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:20,607	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:20,609	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:20,611	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:20,612	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,613	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,615	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:20,615	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,620	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,622	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,827	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:20,848	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:20,851	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:20,853	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:20,855	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:20,857	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:20,857	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,857	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,858	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:20,858	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:20,859	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,000	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:21,012	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:21,014	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:21,016	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:21,018	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:21,018	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,019	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,020	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,020	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,025	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:21,026	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,178	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:21,188	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:21,189	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,193	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:21,194	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:21,196	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:21,197	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:21,198	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,198	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,199	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,199	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,357	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:21,372	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:21,374	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:21,375	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:21,377	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:21,377	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,378	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:21,382	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:21,383	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,383	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:21,385	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:48,651	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:48,689	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:48,691	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:48,694	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:48,695	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:48,698	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:48,698	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:48,699	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:48,700	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:48,705	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:48,706	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:48,825	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:48,826	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:48,826	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:48,827	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:51,884	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:51,886	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:51,894	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:51,895	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:54,369	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:17:54,379	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:17:54,381	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:17:54,382	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:17:54,384	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:17:54,384	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:17:54,385	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:54,385	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:17:54,386	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:17:54,415	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:17:54,416	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:18:48,493	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:18:48,510	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:18:48,512	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:18:48,513	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:18:48,515	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:18:48,515	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:18:48,516	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:18:48,517	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:18:48,517	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:18:48,521	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:18:48,522	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:21:46,525	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:21:46,566	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:21:46,568	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:21:46,570	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:21:46,572	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:21:46,573	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:21:46,573	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:21:46,574	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:21:46,575	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:21:46,583	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:21:46,584	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:21:46,585	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:21:46,586	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:21:46,586	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:21:46,586	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:22:15,046	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:22:15,088	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:22:15,090	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:22:15,092	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:22:15,095	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:22:15,096	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:22:15,096	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:22:15,096	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:22:15,097	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:22:15,103	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:22:15,104	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:22:15,570	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:22:15,572	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:22:15,572	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:22:15,573	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:22:18,351	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:22:18,353	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:22:18,354	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:22:18,354	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:22:20,092	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:22:20,108	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:22:20,110	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:22:20,112	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:22:20,114	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:22:20,114	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:22:20,115	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:22:20,115	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:22:20,116	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:22:20,138	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:22:20,139	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:35,404	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:24:35,434	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:24:35,437	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:24:35,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:24:35,440	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:24:35,442	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:24:35,443	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:24:35,443	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:35,444	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:35,449	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:24:35,449	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:35,610	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:24:35,611	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:24:35,612	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:24:35,612	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:24:39,378	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:24:39,379	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:24:39,380	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:24:39,380	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:24:40,476	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:24:40,489	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:24:40,491	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:24:40,493	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:24:40,494	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:24:40,494	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:24:40,496	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:40,496	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:24:40,497	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:24:40,520	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:24:40,520	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:36:38,944	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 11:39:47,090	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 11:39:52,128	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:39:52,169	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:39:52,170	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:39:52,172	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:39:52,173	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:39:52,174	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:39:52,174	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:39:52,175	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:39:52,176	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:39:52,180	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:39:52,180	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 11:39:55,910	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:39:55,913	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:39:55,913	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:39:55,914	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:39:57,100	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 11:39:57,111	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 11:39:57,113	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 11:39:57,114	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 11:39:57,115	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 11:39:57,116	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 11:39:57,116	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 11:39:57,117	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 11:39:57,117	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 11:39:57,123	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 11:39:57,125	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 13:34:31,659	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:38:43,013	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:41:01,569	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:42:04,940	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 13:42:04,978	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 13:42:04,980	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 13:42:04,981	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 13:42:04,981	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 13:42:04,983	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 13:42:04,985	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 13:42:04,986	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 13:42:04,986	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 13:42:04,991	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 13:42:04,993	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 13:42:04,994	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 13:42:04,994	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 13:42:04,994	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 13:42:04,995	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 13:42:09,063	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 13:42:09,065	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 13:42:09,066	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 13:42:09,067	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 13:42:10,280	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 13:42:10,293	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 13:42:10,295	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 13:42:10,297	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 13:42:10,299	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 13:42:10,299	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 13:42:10,300	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 13:42:10,300	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 13:42:10,301	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 13:42:10,305	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 13:42:10,306	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 13:45:23,437	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:51:07,205	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:54:18,607	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 13:54:19,565	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:55:46,094	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:266)	/src/config/settings.py changed, reloading.
+2024-04-29 13:55:47,028	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:58:33,059	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 13:58:54,051	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 14:00:56,771	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 14:00:56,823	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:00:56,825	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 14:00:56,826	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:00:56,828	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 14:00:56,828	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:00:56,831	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 14:00:56,833	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 14:00:56,834	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:00:56,834	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 14:00:56,835	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 14:00:59,613	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:00:59,615	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:00:59,616	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:00:59,616	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:01,009	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 14:01:01,022	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:01,023	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:01,025	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 14:01:01,027	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 14:01:01,027	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:01,028	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:01,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:01,029	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:01,034	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 14:01:01,035	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:24,240	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:01:32,054	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 14:01:32,073	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:32,075	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:32,076	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:32,078	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 14:01:32,080	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:32,082	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 14:01:32,082	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:32,083	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:32,086	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 14:01:32,086	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:32,106	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:32,107	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:32,107	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:32,108	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:41,659	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 14:01:41,669	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:41,671	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:41,672	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 14:01:41,674	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 14:01:41,674	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:41,675	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:41,675	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:41,675	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:41,683	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 14:01:41,683	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:44,343	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:44,344	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:44,345	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:44,345	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:46,369	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.1" 200 5320
+2024-04-29 14:01:46,382	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/one-page-wonder.css
+2024-04-29 14:01:46,384	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/01.jpg
+2024-04-29 14:01:46,385	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/css/mystyle.css
+2024-04-29 14:01:46,387	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/02.jpg
+2024-04-29 14:01:46,387	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/one-page-wonder.css HTTP/1.1" 404 3204
+2024-04-29 14:01:46,388	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/01.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:46,389	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/css/mystyle.css HTTP/1.1" 404 3204
+2024-04-29 14:01:46,390	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/02.jpg HTTP/1.1" 404 3204
+2024-04-29 14:01:46,420	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /static/assets/img/03.jpg
+2024-04-29 14:01:46,421	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /static/assets/img/03.jpg HTTP/1.1" 404 3204
+2024-04-29 14:02:48,413	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:02:50,961	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:03:01,052	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:08:35,957	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 14:09:02,023	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 14:09:53,705	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:09:56,293	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /accounts/login/ HTTP/1.0" 200 4608
+2024-04-29 14:10:05,271	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /accounts/signup/ HTTP/1.0" 200 4738
+2024-04-29 14:10:09,703	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:10:14,122	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin HTTP/1.0" 301 0
+2024-04-29 14:10:14,136	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 302 0
+2024-04-29 14:10:14,164	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/login/?next=/admin/ HTTP/1.0" 200 4278
+2024-04-29 14:10:14,210	[WARNING]	/usr/local/lib/python3.11/site-packages/django/utils/log.py(Line:241)	Not Found: /favicon.ico
+2024-04-29 14:10:14,212	[WARNING]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /favicon.ico HTTP/1.0" 404 3204
+2024-04-29 14:11:07,755	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:11:12,211	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 302 0
+2024-04-29 14:11:12,222	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/login/?next=/admin/ HTTP/1.0" 200 4278
+2024-04-29 14:11:32,871	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:11:38,658	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:11:50,004	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:13:33,019	[INFO]	/usr/local/lib/python3.11/site-packages/django/utils/autoreload.py(Line:668)	Watching for file changes with StatReloader
+2024-04-29 14:16:53,964	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:16:57,893	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 302 0
+2024-04-29 14:16:57,935	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/login/?next=/admin/ HTTP/1.0" 200 4278
+2024-04-29 14:18:02,748	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 302 0
+2024-04-29 14:18:02,759	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/login/?next=/admin/ HTTP/1.0" 200 4278
+2024-04-29 14:18:03,521	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:19:41,125	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:19:44,939	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:53:55,378	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5320
+2024-04-29 14:53:59,647	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 302 0
+2024-04-29 14:53:59,661	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/login/?next=/admin/ HTTP/1.0" 200 4278
+2024-04-29 14:54:08,265	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+2024-04-29 14:54:08,301	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 200 8436
+2024-04-29 14:55:31,950	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 200 8436
+2024-04-29 14:55:34,707	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin HTTP/1.0" 301 0
+2024-04-29 14:55:34,731	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 200 8436
+2024-04-29 14:55:35,736	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 14:55:37,966	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /mycalendar/ HTTP/1.0" 200 9667
+2024-04-29 14:55:40,234	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /bestrun/1/ HTTP/1.0" 200 3475
+2024-04-29 15:24:17,095	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 15:24:25,779	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 15:24:32,311	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 15:24:38,781	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 200 8436
+2024-04-29 15:24:40,378	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 15:24:55,567	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET / HTTP/1.0" 200 5502
+2024-04-29 15:25:00,164	[INFO]	/usr/local/lib/python3.11/site-packages/django/core/servers/basehttp.py(Line:212)	"GET /admin/ HTTP/1.0" 200 8436

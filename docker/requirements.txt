@@ -4,3 +4,4 @@ django-environ
 psycopg2-binary
 django-allauth
 django-bootstrap5
+gunicorn == 20.1.0
