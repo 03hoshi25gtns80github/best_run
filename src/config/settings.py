@@ -6,7 +6,11 @@ DEBUG = False
 # 許可するホスト名のリスト
 ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
 
-# 静的ファイルを配置する場所
+#STATICFILES_DIRS = [
+    #os.path.join(BASE_DIR, 'static'),
+#]
+
+# 静的ファイルを配置する場
 STATIC_ROOT = '/usr/share/nginx/html/static'
 MEDIA_ROOT = '/usr/share/nginx/html/media'
 
