@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
     env_file:
-      - ./.env
+      - .env
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ${SRC_PATH}:/src
