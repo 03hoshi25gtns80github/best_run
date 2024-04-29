@@ -16,7 +16,7 @@ services:
     build:
       context: ./docker # Dockerfileがあるディレクトリまでの相対パス
       dockerfile: Dockerfile # Dockerfileのファイル名
-    command: gunicorn config.wsgi:application --bind unix:/var/run/gunicorn/gunicorn.sock
+    command: gunicorn besrun.wsgi:application --bind unix:/var/run/gunicorn/gunicorn.sock
     depends_on:
       - db
     env_file:
