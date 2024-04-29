@@ -42,5 +42,10 @@ pass：T11111111
 ### DBコマンド  
 docker-compose exec db psql -U ${DB_USER} ${DB_NAME}  
 \dt
-SELECT * FROM "テーブル名";
+SELECT * FROM "テーブル名";  
+
+### Branch  
+main:デプロイできる状態  
+dev:開発用
+その他：機能ごと
 
