@@ -15,4 +15,4 @@ RUN pip install --upgrade pip\
 
 RUN mkdir -p /var/run/gunicorn
 
-CMD ["gunicorn", "besrun.wsgi", "--bind=unix:/var/run/gunicorn/gunicorn.sock"]
+CMD ["gunicorn", "config.wsgi", "--bind=unix:/var/run/gunicorn/gunicorn.sock"]
