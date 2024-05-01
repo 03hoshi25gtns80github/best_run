@@ -26,23 +26,8 @@ services:
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ./src:/src
-      - gunicorn:/var/run/gunicorn
     container_name: gunicorn
-    stdin_open: true
-    tty: true
 
-  nginx:
-    container_name: nginx
-    build:
-      context: ./docker
-      dockerfile: Dockerfile.nginx
-    depends_on:
-      - gunicorn
-    ports:
-      - "80:80"
-    volumes:
-      - ./src/static:/usr/share/nginx/html/static
-      - gunicorn:/var/run/gunicorn
 volumes:
   gunicorn:
     driver: local

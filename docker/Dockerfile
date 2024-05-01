@@ -12,7 +12,3 @@ COPY requirements.txt /src/
 RUN pip install --upgrade pip\
     && pip install --upgrade setuptools\
     && pip install -r requirements.txt
-
-RUN mkdir -p /var/run/gunicorn
-
-CMD ["gunicorn", "besrun.wsgi", "--bind=unix:/var/run/gunicorn/gunicorn.sock"]
