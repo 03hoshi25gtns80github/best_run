@@ -1,7 +1,5 @@
 src/__pycache__/
 *.pyc
 src/db.sqlite3
-src/media/
-src/static/
 .env
 .ssh
