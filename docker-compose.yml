@@ -38,9 +38,13 @@ services:
       - gunicorn
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./src/static:/usr/share/nginx/html/static
       - gunicorn:/var/run/gunicorn
+      - ${SSL_CRT_PATH}:/etc/nginx/certs/server.crt
+      - ${SSL_KEY_PATH}:/etc/nginx/certs/server.key
+      - ${SSL_PASS_PATH}:/etc/nginx/certs/server.password
 volumes:
   gunicorn:
     driver: local
