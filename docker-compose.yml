@@ -14,7 +14,8 @@ services:
 
   gunicorn:
     build:
-      dockerfile: Dockerfile # Dockerfileのファイル名
+      context: .
+      dockerfile: Dockerfile
     command: gunicorn besrun.wsgi:application --bind unix:/var/run/gunicorn/gunicorn.sock
     depends_on:
       - db
@@ -31,6 +32,7 @@ services:
   nginx:
     container_name: nginx
     build:
+      context: .
       dockerfile: Dockerfile.nginx
     depends_on:
       - gunicorn
