@@ -1,5 +1,5 @@
 FROM nginx:stable-alpine
-COPY ../.env /etc/nginx/.env
+COPY .env /etc/nginx/.env
 # .env ファイルから環境変数を読み込む
 RUN apk add --no-cache bash && \
     export $(cat /etc/nginx/.env | xargs)
