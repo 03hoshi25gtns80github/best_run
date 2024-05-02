@@ -1,11 +1,11 @@
 {% extends 'base.html' %} {% load static %} {% block title %}
-毎日のベスランをカレンダーに記録できるサービス | MyBestRun {% endblock %}
+ベスランとメモをセットでカレンダーに記録 | ゲレンデチャンピオン {% endblock %}
 {%block header%}
 <header class="masthead text-center text-white">
   <div class="masthead-content">
     <div class="container">
       <h1 class="masthead-heading mb-0">MyBestRun</h1>
-      <h2 class="masthead-subheading mb-0">あなた専用のベスランカレンダー</h2>
+      <h2 class="masthead-subheading mb-0">自分専用のベスランカレンダー</h2>
       <a
         href="{% url 'account_login' %}"
         class="btn btn-primary btn-xl rounded-pill mt-5"
@@ -34,7 +34,7 @@
       <div class="col-lg-6 order-lg-1">
         <div class="p-5">
           <h2 class="display-4">FormCalendar</h2>
-          <p>Web上で動画登録/コメントができる</p>
+          <p>Webで動画とメモを登録</p>
         </div>
       </div>
     </div>
@@ -55,8 +55,8 @@
       </div>
       <div class="col-lg-6">
         <div class="p-5">
-          <h2 class="display-4">Save Your Comment</h2>
-          <p>自分のベスランにコメント</p>
+          <h2 class="display-4">My calendar</h2>
+          <p>スマホでいつでも振り返り</p>
         </div>
       </div>
     </div>
