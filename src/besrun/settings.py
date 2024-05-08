@@ -6,6 +6,8 @@ DEBUG = True
 # 許可するホスト名のリスト
 ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
 
+CSRF_TRUSTED_ORIGINS = ['https://gale-cham.com']
+
 #STATICFILES_DIRS = [
     #os.path.join(BASE_DIR, 'static'),
 #]
