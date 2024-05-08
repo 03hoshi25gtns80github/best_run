@@ -40,6 +40,11 @@
       type="text/css"
       href="{% static 'css/mystyle.css' %}"
     />
+    <style>
+      body {
+        padding-top: 70px; /* ナビゲーションバーの高さに応じて調整 */
+      }
+    </style>
     {% block head %}{% endblock %}
   </head>
 

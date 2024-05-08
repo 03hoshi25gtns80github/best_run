@@ -10,14 +10,11 @@
     white-space: nowrap;
   }
 </style>
-<a
-  href="{% url 'MyBestRun:mycalendar' month_previous.year month_previous.month %}"
-  >前月</a
->
-{{ month_current | date:"Y年m月" }}
-<a href="{% url 'MyBestRun:mycalendar' month_next.year month_next.month %}"
-  >次月</a
->
+<div class="month-navigation">
+  <a href="{% url 'MyBestRun:mycalendar' month_previous.year month_previous.month %}">前月</a>
+  <span>{{ month_current | date:"Y年m月" }}</span>
+  <a href="{% url 'MyBestRun:mycalendar' month_next.year month_next.month %}">次月</a>
+</div>
 <table class="table">
   <thead>
     <tr>
@@ -52,3 +49,4 @@
   </tbody>
 </table>
 {% endblock %}
+

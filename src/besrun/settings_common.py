@@ -153,6 +153,18 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',  # 管理サイト用(ユーザー名認証)
 )
 
+#ユーザー名でログイン
+ACCOUNT_AUTHENTICATION_METHOD = 'username'
+ACCOUNT_EMAIL_REQUIRED = False
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_USERNAME_REQUIRED = True
+# ログイン/ログアウト後の遷移先を設定
+LOGIN_REDIRECT_URL = 'MyBestRun:mycalendar'
+ACCOUNT_LOGOUT_REDIRECT_URL = 'MyBestRun:front'
+# ログアウトリンクのクリック一発でログアウトする設定
+ACCOUNT_LOGOUT_ON_GET = True
+
+"""
 # メールアドレス認証に変更する設定
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_USERNAME_REQUIRED = False
@@ -173,6 +185,7 @@ ACCOUNT_EMAIL_SUBJECT_PREFIX = ''
 
 # デフォルトのメール送信元を設定
 DEFAULT_FROM_EMAIL = os.environ.get('FROM_EMAIL')
+"""
 
 # バックアップバッチ用
 #BACKUP_PATH = 'backup/'
