@@ -9,8 +9,6 @@ WORKDIR /src
 
 COPY requirements.txt /src/
 
-RUN mkdir -p /var/log/gunicorn/
-
 RUN pip install --upgrade pip\
     && pip install --upgrade setuptools\
     && pip install -r requirements.txt
