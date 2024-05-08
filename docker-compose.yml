@@ -23,6 +23,7 @@ services:
       - ./.env
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
+      - gunicorn:/var/run/gunicorn
       - ./src:/src
     container_name: gunicorn
 
@@ -41,6 +42,7 @@ services:
       - ${SSL_CRT_PATH}:/etc/nginx/certs/server.crt
       - ${SSL_KEY_PATH}:/etc/nginx/certs/server.key
       - ${SSL_PASS_PATH}:/etc/nginx/certs/server.password
+      - gunicorn:/var/run/gunicorn
 volumes:
   gunicorn:
     driver: local
