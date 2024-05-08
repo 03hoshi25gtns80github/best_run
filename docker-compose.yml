@@ -24,10 +24,7 @@ services:
     volumes:
       # ローカルの作業ディレクトリと仮想環境の作業ディレクトリの対応づけ
       - ./src:/src
-      - gunicorn:/var/run/gunicorn
     container_name: gunicorn
-    stdin_open: true
-    tty: true
 
   nginx:
     container_name: nginx
