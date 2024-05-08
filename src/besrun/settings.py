@@ -1,7 +1,7 @@
 from .settings_common import *
 
 # デバッグモードを有効にするかどうか(本番運用では必ずFalseにする)
-DEBUG = False
+DEBUG = True
 
 # 許可するホスト名のリスト
 ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
