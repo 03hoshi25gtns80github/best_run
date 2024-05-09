@@ -47,7 +47,7 @@ SELECT * FROM "テーブル名";
 ### Branch  
 main:デプロイできる状態  
 dev:開発用
-その他：機能ごと  
+その他：機能ごと、更新事にmainとdevにマージ  
 
 ### EC2
 
